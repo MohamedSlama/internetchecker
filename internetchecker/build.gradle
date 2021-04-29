@@ -1,17 +1,17 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 group='mohamed.slama'
-version='1.0'
+version='1.2'
 
 android {
     compileSdkVersion 29
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        minSdkVersion 28
+        minSdkVersion 25
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
+        versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
