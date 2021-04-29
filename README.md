@@ -4,7 +4,7 @@
 
 ### How To Use:
 1. Add maven to build.gradle all projects `maven { url 'https://jitpack.io' }`
-2. Add dependencies to build.gradle module `implementation 'com.github.MohamedSlama:internetchecker:1.1'`
+2. Add dependencies to build.gradle module `implementation 'com.github.MohamedSlama:internetchecker:1.2'`
 3. Add internet permissions:<br>
   -` <uses-permission android:name="android.permission.INTERNET"/> ` <br>
   -` <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> `
